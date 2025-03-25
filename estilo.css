@@ -1,0 +1,82 @@
+/* .cancion{
+    border: 1px solid red;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+ 
+header {
+    background-color: #8bc34a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.cancion {
+    display: inline-block;
+    box-shadow: 4px 4px 20px 0px #000000cc;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+    position: relative
+}
+
+
+.titulo-cancion {
+    text-align: center;
+    position: relative;
+    background-color: white;
+    color: #8bc34a;
+    padding: 10px;
+    font-size: 20pt;
+    text-transform: uppercase;
+    
+    margin: 10px 0;
+    top: 100px;
+}
+
+
+.imagen-cancion {
+    display: inline-block;
+    /* margin: 20px; */
+    border-radius: 5px;
+
+    width: 100%;
+    height: auto;
+}
+
+
+.boton-play-pause {
+    display: inline-block;
+    position: relative;
+
+    margin-left: 35%;
+
+    text-decoration: none;
+    color: white;
+    background-color: #8bc34a;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.artista {
+    position: absolute;
+    top: 10px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-weight: bold; 
+}
+
+#footer {
+    text-align: center;
+    font-weight: bold; 
+    border-top: 2px solid black;
+}
+
